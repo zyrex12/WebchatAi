@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   const rawRes = await fetch("https://api.deepinfra.com/v1/openai/chat/completions", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer 1fa23284-1c90-4f71-9b55-82e30879ea35", // GRATIS tanpa filter
+      "Authorization": "Bearer D0Q9iByPzRkzbMgQUjfR40lYG02FY0R8", // GRATIS tanpa filter
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
